@@ -23,16 +23,18 @@
 - **五点文案草稿**：英文敏感词过滤与亚马逊预检，非英语文案需人工复核。
 - **灵活接入**：可先接销售与库存，或用已有 ERP 获取广告数据。领星通道已在英国站完成真实店铺写入实测；领星通道不能新建活动或加商品投放。
 
+本次 3.1.1 候选修正 Haiku 5.5 文案与机械子代理型号配置（固定 `claude-haiku-5-5`）。A 电脑实际派发未验证；以子代理会话的 `message.model` 为准。Sonnet 5.5 · 中为成本与延迟建议。广告引擎仍为 alpha.20。
+
 ### 下载、申请与安装
 
-Claude Desktop 旗舰发行 **3.1.0**，插件 **3.1.0+claude-flagship.20261012.1**，内含 **0.2.0-alpha.20** 引擎。
+Claude Desktop 旗舰发行 **3.1.1**，插件 **3.1.1+claude-flagship.20261012.1**，内含 **0.2.0-alpha.20** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.0-claude-flagship/Starsky-Claude-Flagship-3.1.0-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.0-claude-flagship/Starsky-Claude-Flagship-3.1.0-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.1-claude-flagship/Starsky-Claude-Flagship-3.1.1-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.1-claude-flagship/Starsky-Claude-Flagship-3.1.1-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.1.0-claude-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.1.1-claude-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Claude Desktop 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
