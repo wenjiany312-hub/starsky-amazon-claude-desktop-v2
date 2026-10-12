@@ -8,13 +8,13 @@
   "platforms": {
     "windows": {
       "file": "Starsky-Claude-3.0.8-windows.zip",
-      "sha256": "ed14c117cfc8b0ba8765dcf3f6c0f66fd5fb793b782f5ba492b7c93032a7f1d8",
-      "bytes": 5684282
+      "sha256": "5d31cf19d5201a58094f30c1a02513872b4401df99e0e2aae36e573369591ed9",
+      "bytes": 5684186
     },
     "macos": {
       "file": "Starsky-Claude-3.0.8-macos.zip",
-      "sha256": "9119ecdb639fb36449973cc8210a6251a77f79f9e65c19cce7034ab3ca768295",
-      "bytes": 5851222
+      "sha256": "ba6f464eaa976e629284fa8ced87299f53b775338ddf4566f04329f486c2faa4",
+      "bytes": 5851121
     }
   },
   "version": "3.0.8",
