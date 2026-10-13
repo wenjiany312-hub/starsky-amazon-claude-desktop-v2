@@ -23,20 +23,22 @@
 - **五点文案草稿**：英文敏感词过滤与亚马逊预检，非英语文案需人工复核。
 - **灵活接入**：可先接销售与库存，或用已有 ERP 获取广告数据。领星通道已在英国站完成真实店铺写入实测；领星通道不能新建活动或加商品投放。
 
-本次 3.1.3 保留 3.1.2 的旗舰更新器修复：GitHub API 限流导致查询失败时使用公开目录定位，仍校验签名更新清单。已装 3.1.1 的用户，在 API 正常时可用旧「检查新版」升级；若旧入口持续限流，请下载新版完整包运行「安装与更新」，沿用现有会员授权。当前版本继续可用。
+本次旗舰版 **3.1.4** 新增 Windows 彩色启动、停止桌面快捷方式，安装或更新后自动生成；启动无黑窗口，保留已有配置和数据。Claude 模型方案不变，运营版与 Codex 本次不更新。
+
+继续保留 3.1.3 及 3.1.2 的旗舰更新器修复：GitHub API 限流导致查询失败时使用公开目录定位，仍校验签名更新清单。已装 3.1.1 的用户，在 API 正常时可用旧「检查新版」升级；若旧入口持续限流，请下载新版完整包运行「安装与更新」，沿用现有会员授权。当前版本继续可用。
 
 机械子代理固定为 `claude-haiku-5-5`，真实型号派发仍未验证；Sonnet 5.5 · 中为成本与延迟建议。广告引擎仍为 alpha.20。
 
 ### 下载、申请与安装
 
-Claude Desktop 旗舰发行 **3.1.3**，插件 **3.1.3+claude-flagship.20261012.1**，内含 **0.2.0-alpha.20** 引擎。
+Claude Desktop 旗舰发行 **3.1.4**，插件 **3.1.4+claude-flagship.20261013.1**，内含 **0.2.0-alpha.20** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.3-claude-flagship/Starsky-Claude-Flagship-3.1.3-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.3-claude-flagship/Starsky-Claude-Flagship-3.1.3-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.4-claude-flagship/Starsky-Claude-Flagship-3.1.4-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.4-claude-flagship/Starsky-Claude-Flagship-3.1.4-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.1.3-claude-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.1.4-claude-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Claude Desktop 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -61,11 +63,11 @@ Claude Desktop 旗舰发行 **3.1.3**，插件 **3.1.3+claude-flagship.20261012.
 
 个人微信：备注“购买插件”（咨询备注“咨询星空”），并注明 Claude Desktop 旗舰版。
 
-![坚哥个人微信](docs/assets/个人微信.png)
+二维码请查看页面下方的 [授权与联系](#授权与联系)，添加时备注所需产品及版本。
 
 ## 本次更新 · S1 产品开发决策透视
 
-运营版 **3.0.8** 与旗舰版 **3.1.3** 同步升级 S1：组件图片与货源逐项对应，按目标利润反推售价，缺失费用保留为空；厂家前置清单与拿样建议绑定实际市场和成本证据。三份报告使用同源资料同步 Markdown/HTML，历史正文、备注与关键词保留，导航与排版同步改善。
+运营版 **3.0.8** 与旗舰版 **3.1.4** 同步升级 S1：组件图片与货源逐项对应，按目标利润反推售价，缺失费用保留为空；厂家前置清单与拿样建议绑定实际市场和成本证据。三份报告使用同源资料同步 Markdown/HTML，历史正文、备注与关键词保留，导航与排版同步改善。
 
 仅做 S1 时不自动进入 S2；交付、拿样建议与采购授权分别判断。详见 [本次更新说明](docs/S1产品开发决策透视与模型说明_20261012.md)。 Claude 保留自身 Sonnet／Opus／Haiku 推荐路由。
 
