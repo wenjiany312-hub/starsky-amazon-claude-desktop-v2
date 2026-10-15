@@ -1,23 +1,23 @@
 {
   "product": "starsky-claude-v2",
   "tier": "flagship",
-  "latest_preview": "3.1.5",
-  "stable_release": "3.1.5",
-  "version": "3.1.5",
-  "plugin_version": "3.1.5+claude-flagship.20261014.1",
+  "latest_preview": "3.1.6",
+  "stable_release": "3.1.6",
+  "version": "3.1.6",
+  "plugin_version": "3.1.6+claude-flagship.20261015.1",
   "engine_version": "0.2.0-alpha.20",
-  "updated": "2026-10-14",
-  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.1.5-claude-flagship",
+  "updated": "2026-10-15",
+  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.1.6-claude-flagship",
   "platforms": {
     "windows": {
-      "file": "Starsky-Claude-Flagship-3.1.5-windows.zip",
-      "sha256": "204acf7d62179451b7e2976e3c0c1c142c8579c0de021c9ef4f63bd9cd317462",
-      "bytes": 11740312
+      "file": "Starsky-Claude-Flagship-3.1.6-windows.zip",
+      "sha256": "f9106734d27b901469562b583ef7cf3e6f71e791b63bab81886672b9654add73",
+      "bytes": 11851766
     },
     "macos": {
-      "file": "Starsky-Claude-Flagship-3.1.5-macos.zip",
-      "sha256": "618b738e7b1799ab493caa83ba26f2618e7f0c85a6e5acaf781872662533ba25",
-      "bytes": 11907253
+      "file": "Starsky-Claude-Flagship-3.1.6-macos.zip",
+      "sha256": "0c8348a0fcf6b30828ce07855f8e67fab616d54f0a10dca579d253895dbc660b",
+      "bytes": 12018707
     }
   }
 }
