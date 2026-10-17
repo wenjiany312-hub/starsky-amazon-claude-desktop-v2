@@ -11,13 +11,13 @@
   "platforms": {
     "windows": {
       "file": "Starsky-Claude-Flagship-3.1.11-windows.zip",
-      "sha256": "a7cdda84240e9dba488a3006c836ec9348b4a10283d8e538d098e30f1df05107",
-      "bytes": 12369775
+      "sha256": "ad800ca827b9c5e0048b82c1e0cb488dca3265469ef1569b744cd1a94d788c88",
+      "bytes": 12369763
     },
     "macos": {
       "file": "Starsky-Claude-Flagship-3.1.11-macos.zip",
-      "sha256": "cbf3c38ce52a00bc98469a4935bf9c42b943816f409c428e1a6ce13479fcc9cc",
-      "bytes": 12536689
+      "sha256": "462309b019bad86285a9c961cdbe025c72f8c40d65d6f4ff7d1935c448faf85c",
+      "bytes": 12536678
     }
   }
 }
