@@ -1,0 +1,28 @@
+{
+  "name": "starskyclaude",
+  "owner": {
+    "name": "坚哥 · 星空的跨境圈子"
+  },
+  "description": "星空 Claude Desktop 正式版 · 旗舰版",
+  "plugins": [
+    {
+      "name": "starsky-amazon-agent",
+      "version": "3.1.11+claude-flagship.20261017.1",
+      "description": "S1–S5 全流程；更新需本机有效会员授权。",
+      "source": {
+        "source": "command",
+        "command": "\"%USERPROFILE%\\.starsky-claude\\native\\source.cmd\" flagship",
+        "timeout": 600,
+        "mode": "copy"
+      },
+      "metadata": {
+        "starsky_native": {
+          "schema": 1,
+          "product": "starsky-claude-v2",
+          "tier": "flagship",
+          "version": "3.1.11"
+        }
+      }
+    }
+  ]
+}
