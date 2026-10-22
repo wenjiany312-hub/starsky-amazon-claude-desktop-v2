@@ -4,7 +4,21 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Claude Desktop 正式版的公开说明、下载入口及加密发行文件。
 
-## 本次更新 · R06.1（2026-10-21）
+## 本次更新 · R07（2026-10-22）
+
+运营版 **3.0.24**，旗舰版 **3.1.17**。
+
+- S1 跑完直接给出进入 S2 的交接命令；S1 到 S4 每个阶段都能带着未完成项交接到新窗口继续，不再卡在交接。
+- 可以让助手连续跑完；能补的报告缺口不再卡住步骤，出错时用大白话说明原因。
+- S1 成本：单件采购价不会再被当成整套价格；S1 报告带产品图。
+- S2 关键词：兼容 S1 新的品牌词格式（修复第 4 步清洗崩溃）；本品核心词和只为压流量记下的否词不再误拦文案；全量资格校验从几分钟缩短到几秒，被拦时写明命中哪条规则。
+- S2 竞品分层给出逐行登记模板；新品榜接口不可用、SIF 导出没有 ASIN 列都有正式处理办法，不用再猜字段。
+- 导航窗可以拖到第二块屏幕。
+- 旗舰版广告终端：一条命令启动，综合看板作为首页；每日简报不再生成失败，能在本机定时提醒，错过的自动补跑，飞书推送单独开关。
+- 旗舰版广告终端：新增位置竞价推送、带位置的新建广告活动、导入投放计划；加预算需写理由；成本状态检查、按 SKU 的下单明细和价格推送。
+- 旗舰版：Mac 有带图标的广告终端启动、停止和简报应用；启动卡把旗舰列为 S6。
+
+## 历史更新 · R06.1（2026-10-21）
 
 运营版 **3.0.23**，旗舰版 **3.1.16**。
 
@@ -105,14 +119,14 @@ S1–S5 业务、已有配置和数据保留。Windows/Mac 两轮 CLI 沙盒及�
 
 ### 下载、申请与安装
 
-Claude Desktop 旗舰发行 **3.1.16**，插件 **3.1.16+claude-flagship.20261021.1**，内含 **0.2.0-alpha.20** 引擎。
+Claude Desktop 旗舰发行 **3.1.17**，插件 **3.1.17+claude-flagship.20261022.1**，内含 **0.2.0-alpha.20** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.16-claude-flagship/Starsky-Claude-Flagship-3.1.16-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.16-claude-flagship/Starsky-Claude-Flagship-3.1.16-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.17-claude-flagship/Starsky-Claude-Flagship-3.1.17-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.17-claude-flagship/Starsky-Claude-Flagship-3.1.17-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.1.16-claude-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.1.17-claude-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Claude Desktop 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -165,8 +179,8 @@ Claude Desktop 旗舰发行 **3.1.16**，插件 **3.1.16+claude-flagship.2026102
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.0.23/Starsky-Claude-3.0.23-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.0.23/Starsky-Claude-3.0.23-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.0.24/Starsky-Claude-3.0.24-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.0.24/Starsky-Claude-3.0.24-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
