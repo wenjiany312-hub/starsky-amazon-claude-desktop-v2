@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "starsky-amazon-agent",
-      "version": "3.0.24+claude-desktop.20261022.1",
+      "version": "3.0.25+claude-desktop.20261022.1",
       "description": "S1–S5 全流程；更新需本机有效会员授权。",
       "source": {
         "source": "command",
@@ -20,7 +20,7 @@
           "schema": 1,
           "product": "starsky-claude-v2",
           "tier": "basic",
-          "version": "3.0.24"
+          "version": "3.0.25"
         }
       }
     }
