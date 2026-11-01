@@ -1,0 +1,11 @@
+{
+  "bytes": 12027,
+  "file": "grants.zip",
+  "generated_at": "2026-11-01T09:14:14.540247+00:00",
+  "key_id": "48feb61f81c578c78776fe2902ae68ae",
+  "payload_sha256": "b2f9f7fb44a43b322664a6656d6307aa21af34d11960d96ccdd94272991fbe8e",
+  "product": "starsky-claude-v2",
+  "schema": 1,
+  "sha256": "70e5d16ce1ed3ddde66ff0066114ef98b7ddb29c10782c4e5fa91a58f61f7142",
+  "version": "3.1.29"
+}
