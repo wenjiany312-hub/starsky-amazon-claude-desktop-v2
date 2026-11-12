@@ -1,22 +1,22 @@
 {
   "product": "starsky-claude-v2",
   "tier": "basic",
-  "latest_preview": "3.0.47",
-  "stable_release": "3.0.47",
+  "latest_preview": "3.0.48",
+  "stable_release": "3.0.48",
   "updated": "2026-11-11",
-  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.0.47",
+  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.0.48",
   "platforms": {
     "windows": {
-      "file": "Starsky-Claude-3.0.47-windows.zip",
-      "sha256": "f18f87619901557e49829b12d1a6b11286345b90ff086ad7e6b4d3127ce36e31",
-      "bytes": 7080404
+      "file": "Starsky-Claude-3.0.48-windows.zip",
+      "sha256": "80a1552472c3e11d252d26aca9653c567a1ffa21fed24f4489321e68487ba627",
+      "bytes": 7083286
     },
     "macos": {
-      "file": "Starsky-Claude-3.0.47-macos.zip",
-      "sha256": "bd1db0491c18f44e2ab9ac2e86f5fc327b8d7fb6e2be6f82c6b7598f3d8e2ac5",
-      "bytes": 7247263
+      "file": "Starsky-Claude-3.0.48-macos.zip",
+      "sha256": "f717b746352d83f09f47f7b89635ca4305f0ce0bb6f6085bd43eb1b0a53ec320",
+      "bytes": 7250127
     }
   },
-  "version": "3.0.47",
-  "plugin_version": "3.0.47+claude-desktop.20261111.1"
+  "version": "3.0.48",
+  "plugin_version": "3.0.48+claude-desktop.20261111.1"
 }
