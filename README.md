@@ -54,14 +54,14 @@
 
 ### 旗舰版 · 星空 AI 智能广告
 
-Claude Desktop 旗舰发行 **3.1.47**，插件 **3.1.47+claude-flagship.20261122.2**，内含 **0.2.0-alpha.41** 引擎。
+Claude Desktop 旗舰发行 **3.1.48**，插件 **3.1.48+claude-flagship.20261124.1**，内含 **0.2.0-alpha.42** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.47-claude-flagship/Starsky-Claude-Flagship-3.1.47-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.47-claude-flagship/Starsky-Claude-Flagship-3.1.47-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.48-claude-flagship/Starsky-Claude-Flagship-3.1.48-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/download/v3.1.48-claude-flagship/Starsky-Claude-Flagship-3.1.48-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.1.47-claude-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2/releases/tag/v3.1.48-claude-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Claude Desktop 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -104,10 +104,15 @@ Claude Desktop「Customize → Your plugins」里的 Update 按钮当前不代�
 
 正式版只接收本正式版通道的对应档位更新。旧测试版授权不会自动转换成正式版授权；授权绑定申请时的电脑，不支持换机；跨产品或版本档需联系作者分别办理。
 
-## 最新版本 · 旗舰版 3.1.47（2026-11-22）
+## 最新版本 · 旗舰版 3.1.48（2026-11-24）
 
-运营版 **3.0.49**，旗舰版 **3.1.47**。
+运营版 **3.0.49**，旗舰版 **3.1.48**。
 
+- **每日简报按多店多站汇总**：支持筛选，接入方式标识，同店双接去重；利润构成按「销售 → 平台费 → 采购与头程 → 广告 → 利润」展示（含人民币）。
+- **多店审核台改为浅色排版**：按问题→数据→建议→理由→能否推送重排，自接店铺显示为「自接」。
+- **单站点中控页整合**：新增广告占比（今日 ACoS / TACoS），今天先做与库存补货按产品线分组，分组可隐藏。
+- **产品经营诊断标签修正**：无哨兵提醒且诊断未就绪时显示「无提醒」，只有哨兵报错才显示「缺数据」。
+- **广告引擎升至 0.2.0-alpha.42**：已装终端的电脑下次启动时自动换新引擎，不动用户数据和配置。
 - **综合看板并入中控页下半部分**：今天先做、销售利润、库存补货、广告投放、费用明细、成本底盘（美国站、英国站），在一页里看完。
 - **每日简报与产品卡更新到最新版**：产品卡补齐关键词、页面和滞销等日常运营项。
 - **产品经营诊断改用深度视图**：单链接按 0–7 层逐层下钻，同一产品线的变体并排对比。
@@ -124,7 +129,7 @@ Claude Desktop「Customize → Your plugins」里的 Update 按钮当前不代�
 
 ## 产品演进
 
-星空亚马逊 Agent 从 2026-10 起按阶段迭代，越往后越好用。以下按阶段归纳，展开查看；运营版 3.0.8 – 3.0.49 / 旗舰版 3.1.4 – 3.1.47。逐版明细见 [更新历程](docs/更新历程.md)。
+星空亚马逊 Agent 从 2026-10 起按阶段迭代，越往后越好用。以下按阶段归纳，展开查看；运营版 3.0.8 – 3.0.49 / 旗舰版 3.1.4 – 3.1.48。逐版明细见 [更新历程](docs/更新历程.md)。
 
 <details>
 <summary><b>阶段一 · 搭起选品到上架的主链路</b>（2026-10-14 至 10-18）</summary>
